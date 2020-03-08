@@ -45,7 +45,7 @@ cd deep-reinforcement-learning/python
 pip install .
 ```
 ### DQN algorithm
-This implementation is based on a DQN model, which is a deep Model-Free and	Off-policy RL algorithm. It relies also on experience replay memory a mechanism for storing the transitions that the agent observes, allowing us to randomly sample and reuse these data later. Thus, the samples that build up a batch are decorrelated. Moreover, a target network that has its weights frozen and updates them with the policy networkâ€™s weights every so often, was added to compute target action-values and ensure stability.
+This implementation is based on a DQN model, which is a deep Model-Free and	Off-policy RL algorithm. It relies also on experience replay memory a mechanism for storing the transitions that the agent observes, allowing us to randomly sample and reuse these data later. Thus, the samples that build up a batch are decorrelated. Moreover, a target network that has its weights frozen and updates them with the policy network's weights every so often, was added to compute target action-values and ensure stability.
 
 ### Instructions
 Run the cells in the `Navigation.ipynb` to get started with training your own agent! An already trained model is provided in the `checkpoint.pth`. 
